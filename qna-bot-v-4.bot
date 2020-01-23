@@ -1,0 +1,24 @@
+{
+    "name": "qna-bot-v-4",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "qna",
+            "name": "newtestbot",
+            "kbId": "4b2478d5-e611-44cc-8815-341b43536e67",
+            "hostname": "https://labbottestqna.azurewebsites.net/qnamaker",
+            "endpointKey": "db4c651f-f1b1-4fdb-a30a-0e8a47ed88d9",
+            "subscriptionKey": "35588d7e-7912-42e4-baef-acb44c73d182",
+            "id": "123"
+        }  
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
